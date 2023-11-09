@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curd Application</title>
+    <link rel="stylesheet" href="indexcrud.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Create CURD Application</h2>  
+        </div>
+
+        <div class="group">
+
+            <div class="details">
+                <label class="lab">Date</label>
+                <input type="date"class="form-control" placeholder="Enter date" name="date">
+            </div>
+
+            <div class="details">
+                <label class="lab">Name</label>
+                <input type="text"class="form-control" placeholder="Enter Name" name="name">
+            </div>
+
+            <div class="details">
+                <label class="lab">Employee ID</label>
+                <input type="text"class="form-control" placeholder="Enter ID" name="ID">
+            </div>
+
+            <div class="details">
+                <label class="lab">Department</label>
+                <input type="text"class="form-control" placeholder="Enter Department" name="Department">
+            </div>
+
+            <div class="details">
+                <label class="lab">Password</label>
+                <input type="password"class="form-control" placeholder="Enter password" name="password">
+            </div>
+
+            <div class="details">
+                <label class="lab">Gender</label>
+                <select class="option">
+                    <option>select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </div>
+
+
+            <div class="group">
+                <label class="lab">Attendance</label>
+                <input type="radio" class="radio" name="Attendance" value="P">Present
+                <input type="radio" class="radio" name="Attendance" value="A">Absent
+            </div>
+
+            <div class="details">
+                <label class="lab">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>Agree with Terms and Conditions</p>
+            </div>
+            
+            <button type="button" onclick="insertDataHandler()" value="Submit" class="normal">Submit</button>
+
+        </div>
+    </div>
+
+    <section class="tab">
+    <div class="table-box" id="curdTable">
+    <table>
+        <tr>
+            <th>Sr. No</th>
+            <th>Date</th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>password</th>
+            <th>Attendance</th>
+            
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+           
+            <td><button class="normal">Eidit</button><button class="normal1">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+            
+            <td><button class="normal">Eidit</button><button class="normal1">Delete</button></td>
+
+        </tr>
+        <tr>
+            
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+            <td></td>
+            <td><button class="normal">Eidit</button><button class="normal1">Delete</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> 
+            
+            <td><button class="normal">Eidit</button><button class="normal1">Delete</button></td>
+
+        </tr>
+    </table>
+</div>
+</section>
+
+
+
+</body>
+<script src="indexcrud.js"></script>
+</html>
